@@ -35,3 +35,10 @@ kotlin {
         binaries.executable()
     }
 }
+//    tasks.move("runScript", Copy::class) {
+//        from(file("$projectDir/Bingo/build/distributions/*"))
+//        into(file("$projectDir/Bingo/"))
+//    }
+
+
+
