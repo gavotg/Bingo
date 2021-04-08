@@ -1,2 +1,4 @@
 # Bingo
-Hi
+
+
+https://gavotg.github.io/Bingo/
