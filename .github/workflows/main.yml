@@ -40,3 +40,15 @@ jobs:
         with:
           name: index.html
           path: build/distributions/index.html
+
+      - name: Copy js
+        uses: canastro/copy-file-action@master
+        with:
+          source: build/distributions/Bingo.js
+          target: Bingo.js
+
+      - name: Copy html
+        uses: canastro/copy-file-action@master
+        with:
+          source: build/distributions/index.html
+          target: index.html
